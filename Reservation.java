@@ -21,7 +21,6 @@ public class Reservation {
     public String getInfo() {
         String info = new String("     Name: " + customer.firstName + "" + customer.lastName +
         "\nRm. type: " + room.roomType +
-        "\n     Rm. #: " + room.roomNumber +
         "\n      Price: $" + room.roomPrice + " per night" +
         "\n   Lengeth of Stay: " + days + " day(s)");
         return info;

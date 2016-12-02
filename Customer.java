@@ -22,6 +22,15 @@ public class Customer {
     }
 	
     
+    @Override
+	public String toString()
+    {
+	return ("barcode: "+ this.firstName +","+
+            " item: "+ this.lastName +","+
+            " cost: "+ "$"+ this.phoneNumber +","+
+            " category: " + this.email);
+	}
+	
     public String getInfo() {
         String info = new String(" Name: " + firstName + " " + lastName + "" +
         "\n Phone #: "+ phoneNumber + 
@@ -60,6 +69,8 @@ public class Customer {
     public void setEmailAddress(String e) {
         this.email = e;
     }
+    
+ 
     
     
 }
