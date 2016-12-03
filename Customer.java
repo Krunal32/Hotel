@@ -23,9 +23,9 @@ public class Customer {
 	
     
     public String getInfo() {
-        String info = new String(" Name: " + firstName + " " + lastName + "" +
-        "\n Phone #: "+ phoneNumber + 
-        "\n E-Mail: " + email);
+        String info = new String("Name: " + firstName + " " + lastName + "" +
+        "\nPhone #: "+ phoneNumber + 
+        "\nE-Mail: " + email);
         return info;
     }
     
@@ -60,6 +60,8 @@ public class Customer {
     public void setEmailAddress(String e) {
         this.email = e;
     }
+    
+ 
     
     
 }
